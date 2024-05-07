@@ -11,6 +11,7 @@ setup(
     long_description_content_type='text/markdown',
     install_requires=[
         "requests==2.26.0",
+        "openapi-core==0.17.1",
     ],
     tests_require=[
         "pytest==6.2.5",

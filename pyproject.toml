@@ -3,8 +3,11 @@ profile = "black"
 src_paths = ["src", "test"]
 honor_noqa = true
 
-[tool.pytest.ini_options]
-addopts = "--doctest-modules"
-doctest_optionflags = "NORMALIZE_WHITESPACE ELLIPSIS"
-minversion = "6.2"
-testpaths = ["tests"]
+# [tool.pytest.ini_options]
+# pythonpath = [
+#   ".", "src"
+# ]
+# [tool.pytest]
+# pythonpath = [
+#   "."
+# ]
