@@ -10,10 +10,10 @@ setup(
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     install_requires=[
-        "requests==2.26.0",
-        "openapi-core==0.17.1",
+        "requests==2.31.0",
+        "openapi-core==0.19.1",
     ],
     tests_require=[
-        "pytest==6.2.5",
+        "pytest==8.2.0",
     ]
 )
