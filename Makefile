@@ -1,4 +1,4 @@
 init:
 	pip install -r requirements-dev.txt
 unit:
-	python -m pytest test/unit/ -s
+	python -m pytest tests/unit/ -s
