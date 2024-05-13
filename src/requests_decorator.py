@@ -21,8 +21,8 @@ request_post_validator = patch('requests.post', post)
 
 if __name__ == '__main__':
 
-    @my_get_decorator
-    @my_post_decorator
+    @request_get_validator
+    @request_post_validator
     def hello():
         r = requests.get('https://www.google.com')
         print(r.status_code)
